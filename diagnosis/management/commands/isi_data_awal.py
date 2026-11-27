@@ -34,6 +34,7 @@ class Command(BaseCommand):
             ("G17", "Muncul peringatan suhu terlalu tinggi", "Perangkat menampilkan peringatan bahwa suhu terlalu tinggi."),
             ("G18", "Pengisian daya dihentikan karena suhu tinggi", "Perangkat menghentikan proses pengisian daya akibat suhu tinggi."),
             ("G19", "Perangkat mati otomatis setelah terlalu panas", "Perangkat mati secara otomatis setelah mengalami peningkatan suhu."),
+            ("G20", "Suara tetap bermasalah setelah pemeriksaan pengaturan audio", "Gangguan suara tetap terjadi setelah Bluetooth dan perangkat audio eksternal dilepas serta pengaturan volume diperiksa."),
         ]
 
         for kode, nama, deskripsi in data_gejala:
